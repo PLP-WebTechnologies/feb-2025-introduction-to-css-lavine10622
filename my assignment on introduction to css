@@ -1,0 +1,114 @@
+# Introduction to CSS
+
+## Objectives
+Link an external CSS file to an HTML document.
+Apply basic styling using selectors.
+Use colors, fonts, and spacing effectively.
+
+## Instructions
+
+Create a style.css file.
+Apply CSS to a HTML page.
+Style elements using:
+Classes and IDs.
+Color and typography.
+Margins, paddings, and borders.
+
+>[!NOTE]
+>  - Include at least:
+>  - Use of 3 selectors
+>  - Style an image
+>  - Margin, Padding & Borders
+>  - Different font
+
+# Tasks
+ - Link an external CSS file.
+ - Apply at least 3 different selectors.
+ - Improve readability and aesthetics.
+
+Happy Coding! 💻✨
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>country boy</title>
+  <link rel="stylesheet" href="html.css">
+</head>
+<body>
+
+  <header id="main-header">
+    <h1>Welcome to My Webpage</h1>
+    <p class="subtitle">welcome to my countryside viewport</p>
+  </header>
+
+  <section class="content">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse enim accusantium itaque dignissimos atque nisi, at est eum officia aliquam? Fugit voluptas laborum sint <br>
+        quidem. Incidunt dolorum accusamus autem et! <strong>Australia</strong>, <em>london</em>, and layout styling.</p>
+    <img src="https://i.pinimg.com/736x/7e/d2/0b/7ed20bf4c87f5773ee529196d3af548f.jpg" alt="Example image" class="styled-image">
+  </section>
+
+  <footer>
+    <p class="footer-text">thank you for visiting my website
+    </p>
+  </footer>
+
+</body>
+</html>
+my css
+
+/* Universal selector for base style */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* ID selector */
+  #main-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #388E3C;
+  }
+  
+  /* Class selector */
+  .subtitle {
+    font-style: italic;
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  /* Another class selector */
+  .content {
+    margin: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  /* Image styling */
+  .styled-image {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    max-width: 100%;
+  }
+  
+  /* Footer styling */
+  .footer-text {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    margin: 40px 0 10px;
+  }
+  
+
+
+
+
